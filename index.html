@@ -2,18 +2,22 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8" />
-  <title>微信分享测试</title>
-  <meta name="description" content="这是一个用于测试微信是否能识别分享信息的页面。" />
+  <title>钉钉卡片测试标题</title>
+  <meta name="description" content="这是一段用于钉钉卡片分享的描述信息。" />
 
-  <!-- 微信/QQ 分享卡片识别关键 -->
-  <meta property="og:title" content="我是卡片标题 - 测试页" />
-  <meta property="og:description" content="这是卡片描述内容，微信应该可以抓到。" />
-  <meta property="og:image" content="https://img.alicdn.com/imgextra/i2/6000000001919/O1CN01PMsKBy1aNRsmFz0bZ_!!6000000001919-2-tps-800-420.png" />
+  <!-- 钉钉专用 meta -->
+  <meta name="dingtalk:title" content="钉钉卡片标题：测试页面" />
+  <meta name="dingtalk:description" content="钉钉卡片描述信息，这里不会显示图片。" />
+  <meta name="dingtalk:url" content="https://transform2-d.vercel.app/" />
+
+  <!-- 兼容 OG（可选） -->
+  <meta property="og:title" content="钉钉测试 - 仅标题与描述" />
+  <meta property="og:description" content="钉钉测试 - 无图卡片，仅供测试。" />
   <meta property="og:url" content="https://transform2-d.vercel.app/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <h1>微信卡片测试页面</h1>
+  <h1>钉钉分享测试：无图版本</h1>
 </body>
 </html>
